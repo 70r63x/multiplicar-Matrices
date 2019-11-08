@@ -20,7 +20,6 @@
 			$show = true;
 			$showResult = false;
 			$errorMensaje = '';
-			
 		}
 	}
 
@@ -62,7 +61,7 @@
 				$matrizResul[$w][$x] = $suma;
 				$mR = $mR."<td>".$matrizResul[$w][$x]."</td>";
 			}
-			$mR = $mR."<tr>";
+			$mR = $mR."</tr>";
 		}
 	}
 ?>

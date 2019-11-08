@@ -19,6 +19,8 @@
 		}
 		.mMatriz td{
 			padding: 10px;
+			background: #000;
+			color: #fff;
 		}
 		.operadores{
 			font-size: 25px;
@@ -42,13 +44,13 @@
 					<div class="row">
 						<div class="col-12 my-2">
 							<label>A</label>(
-							<input type="number" name="a1" required class="matriz">x
-							<input type="number" name="a2" required class="matriz">)
+							<input type="number" name="a1" min="1" required class="matriz">x
+							<input type="number" name="a2" min="1" required class="matriz">)
 						</div>
 						<div class="col-12 my-2">
 							<label>B</label>(
-							<input type="number" name="b1" required class="matriz">x
-							<input type="number" name="b2" required class="matriz">)
+							<input type="number" name="b1" min="1" required class="matriz">x
+							<input type="number" name="b2" min="1" required class="matriz">)
 						</div>
 						<div class="col-12">
 							<button class="btn btn-primary" type="submit" name="crear" id="crear">Crear matrices</button>
